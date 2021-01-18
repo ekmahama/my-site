@@ -1,0 +1,139 @@
+body{
+    /* background-color: #fcf8e8; */
+    margin:0;
+    text-align: center; /*Note: Text-align will center everying in container that has not width set*/
+    font-family:'Merriweather Sans', sans-serif;
+
+ 
+}
+#title{
+    font-weight: normal;
+
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin:50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    
+    /* width: 10%; Note: Because width is set, text-align will not work, thus we use margin(auto) to center it */
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+     color: #66BFBF;
+
+}
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+.top-container {
+    background-color:#FFF3E6;
+    position: relative;
+    /* height: 200px;
+    width: 200px;
+    border: solid 10px;*/
+    padding: 100px; 
+    /* line-height: 2; */
+    border-radius: 10px;
+
+}
+
+.middle-container {
+    border-radius: 10px;
+    margin: 100px 0;
+
+
+}
+.bottom-container {
+    background-color: #66BFBF;
+    line-height: 2;
+    padding: 50px 0 10px 0;
+ 
+}
+.footer-link{
+    padding: 20px;
+}
+.top-cloud{
+    position: absolute;
+    right:400px;
+    top:20px;
+}
+.middle-cloud{
+    position: absolute; /*Note: aboslute position is related to the immediate parent with relative positon other
+    wise it relative to body. It takes the element out of the html flow*/
+    margin-left: 50px;
+}
+
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+}
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+}
+
+.ml-img{
+    width: 25%;
+    float: right;
+    margin-left: 20px;
+}
+.robotics-img{
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+}
+.uav-img{
+    width: 25%;
+    float: right;
+    margin-left: 20px;   
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    border-color:#EAF6F6;
+    height: 0px;
+    width: 5%;
+    margin: 100px auto;
+}
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    color: #EAF6F6;
+    padding: 10px;
+    background-color: #66BFBF;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none; 
+    margin: 20px;
+    font-weight: bold;
+    margin-top: 80px;
+
+}
+
+p{
+    line-height: 2;
+}
+.contact-me{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+a:hover{
+    color: #EAF6F6;
+}
+.copyright{
+    padding: 20px 0;
+    color: #EAF6F6;
+}
+
+a {
+    text-decoration: none;
+}
